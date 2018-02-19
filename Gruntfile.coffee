@@ -26,7 +26,7 @@ module.exports = (grunt) ->
 			test: options: reporter: 'spec'
 		shell:
 			sbtMain:
-				command: 'sbt main/fullOptJS'
+				command: 'sbt main/fastOptJS'
 				options: stdout: true
 			sbtTest:
 				command: 'sbt test/test'
